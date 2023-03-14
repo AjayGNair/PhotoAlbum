@@ -67,4 +67,4 @@ h1::before{
 	.photo-container img {
 		width: calc(100% / 4 - 20px);
 	}
-}
+} 
