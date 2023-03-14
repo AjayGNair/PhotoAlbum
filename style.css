@@ -15,6 +15,39 @@ cursor: pointer;
 opacity: 0.8;
 }
 
+h1{
+    font-weight: normal;
+    font-size: 30px;
+    position: relative;
+    margin: 40px 0;
+
+}
+h2{
+    position: center;
+}
+h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: rgba(37, 117, 209, 0.866);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    0% {
+        width: 100px;
+    }
+    50% {
+        width: 180px;
+    }
+    100% {
+        width: 100px;
+    }
+}
+
 /* Breakpoint 1 */
 @media screen and (min-width: 576px) and (max-width: 768px) {
 	.photo-container img {
