@@ -10,6 +10,11 @@
 	margin: 10px;
 }
 
+.photo-container img:hover {
+cursor: pointer;
+opacity: 0.8;
+}
+
 /* Breakpoint 1 */
 @media screen and (min-width: 576px) and (max-width: 768px) {
 	.photo-container img {
